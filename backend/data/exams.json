@@ -1,0 +1,22 @@
+{
+  "title": "Exams and Results",
+  "highlights": [
+    "ABVV publishes exam-related notices such as time table, results, and academic updates through its official website and student-facing sections.",
+    "Students should regularly check the official Time Table and Results sections for the latest announcements.",
+    "Course-specific exam instructions may also be shared through departments or affiliated colleges."
+  ],
+  "defaultEnglish": "For ABVV exams and results, regularly check the official university website, especially the Time Table, Results, and notice sections.",
+  "defaultHindi": "एबीवीवी की परीक्षाओं और परिणामों के लिए विश्वविद्यालय की आधिकारिक वेबसाइट के टाइम टेबल, रिजल्ट, और सूचना अनुभाग को नियमित रूप से देखते रहें।",
+  "faqs": [
+    {
+      "question": "When are the exam dates announced?",
+      "answerEnglish": "ABVV exam dates are announced through official notices and the Time Table section on the university website. Students should monitor those pages regularly for the latest semester schedule.",
+      "answerHindi": "एबीवीवी की परीक्षा तिथियाँ विश्वविद्यालय की आधिकारिक सूचनाओं और वेबसाइट के टाइम टेबल अनुभाग में घोषित की जाती हैं। नवीनतम सेमेस्टर कार्यक्रम के लिए छात्रों को इन्हें नियमित रूप से देखना चाहिए।"
+    },
+    {
+      "question": "How can I check my result?",
+      "answerEnglish": "You can check your ABVV result from the official Results section on the university website by using the required examination details such as roll number or other credentials shown there.",
+      "answerHindi": "आप एबीवीवी का परिणाम विश्वविद्यालय की आधिकारिक वेबसाइट के रिजल्ट अनुभाग से देख सकते हैं, जहाँ रोल नंबर या मांगी गई परीक्षा संबंधी जानकारी दर्ज करनी होती है।"
+    }
+  ]
+}

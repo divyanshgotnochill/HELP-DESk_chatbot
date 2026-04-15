@@ -1,0 +1,22 @@
+{
+  "title": "Admissions",
+  "highlights": [
+    "Atal Bihari Vajpayee Vishwavidyalaya, Bilaspur, publishes admission notices, guidance, and updates through its official website and student-facing notice sections.",
+    "Students should complete online admission and enrollment steps through the official university portal and keep scanned academic and identity documents ready.",
+    "For admission support and verification, students may need to coordinate with the university office at Koni, Bilaspur, or their affiliated college as instructed in notices."
+  ],
+  "defaultEnglish": "For ABVV admissions, follow the latest admission notice on the official university website, complete the online process, and keep your academic and identity documents ready for verification.",
+  "defaultHindi": "एबीवीवी प्रवेश के लिए विश्वविद्यालय की आधिकारिक वेबसाइट पर जारी नवीनतम प्रवेश सूचना देखें, ऑनलाइन प्रक्रिया पूरी करें, और सत्यापन हेतु अपने शैक्षणिक तथा पहचान दस्तावेज़ तैयार रखें।",
+  "faqs": [
+    {
+      "question": "What is the admission process?",
+      "answerEnglish": "At ABVV Bilaspur, the admission process typically includes checking the latest notification, completing the online application or enrollment step, uploading required documents, and following merit or verification instructions issued by the university or affiliated college.",
+      "answerHindi": "एबीवीवी बिलासपुर में प्रवेश प्रक्रिया में सामान्यतः नवीनतम सूचना देखना, ऑनलाइन आवेदन या नामांकन प्रक्रिया पूरी करना, आवश्यक दस्तावेज़ अपलोड करना, और विश्वविद्यालय या सम्बद्ध महाविद्यालय द्वारा जारी मेरिट या सत्यापन निर्देशों का पालन करना शामिल होता है।"
+    },
+    {
+      "question": "What documents are required for admission?",
+      "answerEnglish": "Students commonly need 10th and 12th marksheets, transfer certificate, migration certificate if applicable, ID proof, passport-size photographs, caste or income certificate where relevant, and any course-specific eligibility documents mentioned in the ABVV admission notice.",
+      "answerHindi": "छात्रों को सामान्यतः 10वीं और 12वीं की मार्कशीट, ट्रांसफर सर्टिफिकेट, लागू होने पर माइग्रेशन सर्टिफिकेट, पहचान पत्र, पासपोर्ट आकार के फोटो, संबंधित होने पर जाति या आय प्रमाणपत्र, और एबीवीवी प्रवेश सूचना में बताए गए पाठ्यक्रम-विशिष्ट पात्रता दस्तावेज़ जमा करने होते हैं।"
+    }
+  ]
+}

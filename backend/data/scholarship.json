@@ -1,0 +1,22 @@
+{
+  "title": "Scholarships",
+  "highlights": [
+    "Eligible ABVV students may benefit from merit, category-based, and government-supported scholarship schemes depending on course and eligibility rules.",
+    "Scholarship timelines and required documents should be verified through current university or government scholarship notifications.",
+    "Students should keep academic records, bank details, and category or income documents ready when applying."
+  ],
+  "defaultEnglish": "ABVV students should check the latest scholarship notices and applicable state or national portals for current eligibility, deadlines, and submission rules.",
+  "defaultHindi": "एबीवीवी के छात्रों को वर्तमान पात्रता, अंतिम तिथि, और आवेदन नियमों के लिए नवीनतम छात्रवृत्ति सूचनाएँ तथा लागू राज्य या राष्ट्रीय पोर्टल अवश्य देखना चाहिए।",
+  "faqs": [
+    {
+      "question": "What scholarships are available?",
+      "answerEnglish": "ABVV students may be eligible for merit-based support, reserved-category scholarships, and government scholarship schemes, depending on current rules and course eligibility.",
+      "answerHindi": "एबीवीवी के छात्र वर्तमान नियमों और पाठ्यक्रम पात्रता के अनुसार मेरिट-आधारित सहायता, आरक्षित वर्ग छात्रवृत्ति, और सरकारी छात्रवृत्ति योजनाओं के लिए पात्र हो सकते हैं।"
+    },
+    {
+      "question": "Which documents are needed for scholarship?",
+      "answerEnglish": "Scholarship applications commonly need marksheets, income certificate, Aadhaar or ID proof, bank account details, caste certificate if applicable, and any university or scheme-specific forms.",
+      "answerHindi": "छात्रवृत्ति आवेदन के लिए सामान्यतः मार्कशीट, आय प्रमाणपत्र, आधार या पहचान पत्र, बैंक खाता विवरण, लागू होने पर जाति प्रमाणपत्र, और संबंधित योजना या विश्वविद्यालय के आवश्यक फॉर्म चाहिए होते हैं।"
+    }
+  ]
+}
