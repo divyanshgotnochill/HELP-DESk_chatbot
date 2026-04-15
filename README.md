@@ -82,6 +82,7 @@ Create `backend/.env` from `backend/.env.example`.
 PORT=5000
 FRONTEND_URL=http://localhost:5173
 GEMINI_API_KEY=your_key_here
+GEMINI_MODEL=gemini-2.5-flash
 ```
 
 Optional frontend environment:
@@ -120,7 +121,7 @@ Open `http://localhost:5173`.
 
 1. Add your Gemini key to `backend/.env`.
 2. Restart the backend.
-3. The server will call Gemini for college-related questions.
+3. The server will call Gemini for college-related questions using `GEMINI_MODEL` or the default `gemini-2.5-flash`.
 4. If Gemini is unavailable or the key is missing, mock knowledge-base replies are used automatically.
 
 ## Local Storage and Knowledge Base

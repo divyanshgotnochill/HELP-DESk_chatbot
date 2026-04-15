@@ -1,5 +1,7 @@
 import { detectRelevantTopic, getKnowledgeBase, isCollegeRelated } from "./knowledgeService.js";
 
+const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+
 function buildContextSummary(topicData) {
   const summary = topicData.highlights?.join(" ") || "";
   const faqSummary = topicData.faqs
@@ -56,7 +58,7 @@ ${message}
   `.trim();
 
   const response = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`,
+    `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${apiKey}`,
     {
       method: "POST",
       headers: {
@@ -69,7 +71,8 @@ ${message}
   );
 
   if (!response.ok) {
-    throw new Error("Gemini API request failed.");
+    const errorText = await response.text();
+    throw new Error(`Gemini API request failed (${response.status}): ${errorText}`);
   }
 
   const data = await response.json();
