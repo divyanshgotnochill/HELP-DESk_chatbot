@@ -83,6 +83,7 @@ PORT=5000
 FRONTEND_URL=http://localhost:5173
 GEMINI_API_KEY=your_key_here
 GEMINI_MODEL=gemini-2.5-flash
+AUTH_SECRET=change-me-for-production
 ```
 
 Optional frontend environment:
@@ -108,6 +109,17 @@ npm run dev
 ```
 
 Open `http://localhost:5173`.
+
+## Authentication
+
+- Students can access the chat helpdesk after login.
+- Admins can access both the chat and the admin knowledge editor.
+- Default demo accounts:
+  - Student: `student.abvv@gmail.com` / `student123`
+  - Admin: `admin.abvv@gmail.com` / `admin123`
+- Stored user records live in `backend/storage/users.json`.
+- Admins can create new student accounts using the student's registered personal email.
+- Each new student gets an auto-generated ID like `ABVV-2026-0002` and a temporary password to share with the student.
 
 ## API Endpoints
 

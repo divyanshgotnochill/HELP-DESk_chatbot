@@ -1,0 +1,52 @@
+{
+  "title": "Curriculum, Syllabus, and Timetable",
+  "highlights": [
+    "Active Computer Science tracks currently covered are B.Sc. Honours Computer Science, BCA, DCA, M.Sc. Computer Science, MCA, and PGDCA.",
+    "The official syllabus repository reference provided is https://www.abvv.ac.in/syllabus1, where students should look for NEP examination pattern or semester examination pattern documents.",
+    "Department timetables are usually circulated through notice boards, coordinator-managed student groups, and local college notice systems."
+  ],
+  "defaultEnglish": "For Computer Science syllabus and timetable help, students should first identify their course and semester, then check the official ABVV syllabus repository and department timetable channels. The submitted knowledge includes active courses, sample semester subject structures, class timings, lab timing windows, and timetable change protocols.",
+  "defaultHindi": "कंप्यूटर साइंस सिलेबस और टाइम टेबल के लिए छात्र को पहले अपना कोर्स और सेमेस्टर पहचानना चाहिए, फिर आधिकारिक ABVV सिलेबस रिपॉजिटरी और विभागीय टाइम टेबल माध्यमों की जाँच करनी चाहिए। उपलब्ध जानकारी में सक्रिय कोर्स, सेमेस्टरवार विषय संरचना, कक्षा समय, लैब समय, और टाइम टेबल परिवर्तन प्रक्रिया शामिल है।",
+  "faqs": [
+    {
+      "question": "Which Computer Science courses are currently active?",
+      "answerEnglish": "The submitted curriculum notes list these active tracks for session 2026-27: B.Sc. Honours Computer Science, BCA, DCA, M.Sc. Computer Science, MCA, and PGDCA.",
+      "answerHindi": "प्रस्तुत पाठ्यक्रम जानकारी के अनुसार सत्र 2026-27 के लिए सक्रिय पाठ्यक्रम हैं: बी.एससी. ऑनर्स कंप्यूटर साइंस, बीसीए, डीसीए, एम.एससी. कंप्यूटर साइंस, एमसीए, और पीजीडीसीए।"
+    },
+    {
+      "question": "Where can I download the official syllabus?",
+      "answerEnglish": "The submitted syllabus reference points students to https://www.abvv.ac.in/syllabus1. Students should look for Academic Syllabus and Documents or Quick Links and then choose NEP Examination Pattern for new UG courses or Semester Examination Pattern for PG courses before downloading the correct PDF.",
+      "answerHindi": "उपलब्ध सिलेबस जानकारी के अनुसार आधिकारिक सिलेबस के लिए https://www.abvv.ac.in/syllabus1 देखें। छात्रों को Academic Syllabus and Documents या Quick Links में जाकर नए यूजी पाठ्यक्रमों के लिए NEP Examination Pattern और पीजी पाठ्यक्रमों के लिए Semester Examination Pattern चुनकर सही PDF डाउनलोड करनी चाहिए।"
+    },
+    {
+      "question": "What subjects are taught in first year BCA or B.Sc. Computer Science?",
+      "answerEnglish": "The submitted sample scheme for Semester 1 includes Computer Fundamentals and Operating Systems, Programming in C, Mathematical Foundations of Computer Science, Communication English or Hindi, PC Packages and Office Automation Lab, and C Programming Lab. Semester 2 includes C++, Data Structures, Digital Electronics and Microprocessor topics, Environmental Studies, C++ Lab, and Data Structures Lab.",
+      "answerHindi": "उपलब्ध नमूना योजना के अनुसार सेमेस्टर 1 में Computer Fundamentals and Operating Systems, C Programming, Mathematical Foundations of Computer Science, Communication English या Hindi, PC Packages and Office Automation Lab, तथा C Programming Lab शामिल हैं। सेमेस्टर 2 में C++, Data Structures, Digital Electronics and Microprocessor विषय, Environmental Studies, C++ Lab, और Data Structures Lab शामिल हैं।"
+    },
+    {
+      "question": "What advanced subjects are covered in MCA or M.Sc. Computer Science?",
+      "answerEnglish": "The submitted higher-degree matrix mentions Advanced Software Engineering, DBMS and SQL, Formal Language and Automata or Compiler Design, Computer Networks, web technologies using Java or Python full-stack environments, and advanced database or object-oriented lab work.",
+      "answerHindi": "उपलब्ध उच्च-स्तरीय पाठ्यक्रम जानकारी में Advanced Software Engineering, DBMS और SQL, Formal Language और Automata या Compiler Design, Computer Networks, Java या Python full-stack web technologies, और advanced database या object-oriented lab work शामिल हैं।"
+    },
+    {
+      "question": "What are the normal class timings?",
+      "answerEnglish": "The submitted schedule notes say the academic week runs Monday through Saturday, with theory class periods usually lasting 50 to 60 minutes. Standard lecture timing is commonly around 10:30 AM to 1:30 PM, followed by afternoon academic slots.",
+      "answerHindi": "उपलब्ध समय-सारणी के अनुसार शैक्षणिक सप्ताह सोमवार से शनिवार तक चलता है, और थ्योरी कक्षाएँ सामान्यतः 50 से 60 मिनट की होती हैं। नियमित कक्षा समय लगभग 10:30 AM से 1:30 PM तक बताया गया है, जिसके बाद दोपहर की कक्षाएँ हो सकती हैं।"
+    },
+    {
+      "question": "When are practical or lab classes usually held?",
+      "answerEnglish": "The submitted timetable notes say practical sessions are generally scheduled in continuous 2-period or 3-period blocks, usually in the post-lunch window from around 2:30 PM to 5:30 PM.",
+      "answerHindi": "उपलब्ध टाइम टेबल जानकारी के अनुसार प्रायोगिक कक्षाएँ सामान्यतः लगातार 2 या 3 पीरियड ब्लॉक में आयोजित होती हैं, प्रायः दोपहर भोजन के बाद लगभग 2:30 PM से 5:30 PM के बीच।"
+    },
+    {
+      "question": "How is the timetable shared with students?",
+      "answerEnglish": "The submitted communication flow says timetable information is normally shared through department notice boards, class coordinator-managed WhatsApp or Telegram groups, and for affiliated colleges through local college notice pages or websites.",
+      "answerHindi": "उपलब्ध संचार प्रक्रिया के अनुसार टाइम टेबल सामान्यतः विभागीय नोटिस बोर्ड, कक्षा समन्वयक द्वारा संचालित WhatsApp या Telegram समूहों, और सम्बद्ध कॉलेजों में स्थानीय नोटिस पेज या वेबसाइट के माध्यम से साझा किया जाता है।"
+    },
+    {
+      "question": "What should I do if the timetable changes suddenly?",
+      "answerEnglish": "The submitted contingency protocol says students should verify revised schedules from the department notice board and coordinator messages. The chatbot should advise students to confirm such changes with their class representative and physically check the notice board outside Room 12 or the HOD office before missing class.",
+      "answerHindi": "उपलब्ध आकस्मिक प्रक्रिया के अनुसार छात्रों को संशोधित टाइम टेबल विभागीय नोटिस बोर्ड और समन्वयक संदेशों से सत्यापित करना चाहिए। ऐसी स्थिति में छात्र अपने कक्षा प्रतिनिधि से पुष्टि करें और कक्षा छोड़ने से पहले Room 12 या HOD कार्यालय के बाहर लगे नोटिस बोर्ड को अवश्य देखें।"
+    }
+  ]
+}

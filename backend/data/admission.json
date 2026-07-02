@@ -1,22 +1,47 @@
 {
   "title": "Admissions",
   "highlights": [
-    "Atal Bihari Vajpayee Vishwavidyalaya, Bilaspur, publishes admission notices, guidance, and updates through its official website and student-facing notice sections.",
-    "Students should complete online admission and enrollment steps through the official university portal and keep scanned academic and identity documents ready.",
-    "For admission support and verification, students may need to coordinate with the university office at Koni, Bilaspur, or their affiliated college as instructed in notices."
+    "Computer Science admissions for session 2026-27 are handled through the ABVV main website https://www.bilaspuruniversity.ac.in/ and the live admission portal https://exam.bucgexam.in/.",
+    "Applicants can apply to the University Teaching Department (UTD) or affiliated colleges through the portal reference https://exam.bucgexam.in/public/home/admission/1.",
+    "For CS courses, students must carefully match their marksheets, eligibility criteria, and uploaded details because mismatches can lead to rejection during physical verification."
   ],
-  "defaultEnglish": "For ABVV admissions, follow the latest admission notice on the official university website, complete the online process, and keep your academic and identity documents ready for verification.",
-  "defaultHindi": "एबीवीवी प्रवेश के लिए विश्वविद्यालय की आधिकारिक वेबसाइट पर जारी नवीनतम प्रवेश सूचना देखें, ऑनलाइन प्रक्रिया पूरी करें, और सत्यापन हेतु अपने शैक्षणिक तथा पहचान दस्तावेज़ तैयार रखें।",
+  "defaultEnglish": "For ABVV Computer Science admissions, first check the official university website at https://www.bilaspuruniversity.ac.in/, then complete the online application through https://exam.bucgexam.in/. Students should review course eligibility, upload correct documents, pay the application fee, track merit lists, and complete physical verification before final admission is locked.",
+  "defaultHindi": "एबीवीवी कंप्यूटर साइंस प्रवेश के लिए पहले विश्वविद्यालय की आधिकारिक वेबसाइट https://www.bilaspuruniversity.ac.in/ देखें, फिर ऑनलाइन आवेदन https://exam.bucgexam.in/ के माध्यम से पूरा करें। छात्र पात्रता, सही दस्तावेज़, आवेदन शुल्क, मेरिट सूची, और भौतिक सत्यापन की प्रक्रिया पूरी करें।",
   "faqs": [
     {
-      "question": "What is the admission process?",
-      "answerEnglish": "At ABVV Bilaspur, the admission process typically includes checking the latest notification, completing the online application or enrollment step, uploading required documents, and following merit or verification instructions issued by the university or affiliated college.",
-      "answerHindi": "एबीवीवी बिलासपुर में प्रवेश प्रक्रिया में सामान्यतः नवीनतम सूचना देखना, ऑनलाइन आवेदन या नामांकन प्रक्रिया पूरी करना, आवश्यक दस्तावेज़ अपलोड करना, और विश्वविद्यालय या सम्बद्ध महाविद्यालय द्वारा जारी मेरिट या सत्यापन निर्देशों का पालन करना शामिल होता है।"
+      "question": "What is the admission process for Computer Science courses?",
+      "answerEnglish": "The CS admission flow generally has five stages: register on https://exam.bucgexam.in/, complete profile and academic details, lock course and college choices, pay the application fee, wait for merit lists, then report physically with originals for verification and final fee payment.",
+      "answerHindi": "कंप्यूटर साइंस प्रवेश प्रक्रिया सामान्यतः पाँच चरणों में होती है: https://exam.bucgexam.in/ पर पंजीकरण, प्रोफाइल और शैक्षणिक जानकारी भरना, कोर्स और कॉलेज विकल्प लॉक करना, आवेदन शुल्क जमा करना, मेरिट सूची का इंतजार करना, और अंत में मूल दस्तावेजों के साथ सत्यापन एवं अंतिम शुल्क जमा करना।"
     },
     {
-      "question": "What documents are required for admission?",
-      "answerEnglish": "Students commonly need 10th and 12th marksheets, transfer certificate, migration certificate if applicable, ID proof, passport-size photographs, caste or income certificate where relevant, and any course-specific eligibility documents mentioned in the ABVV admission notice.",
-      "answerHindi": "छात्रों को सामान्यतः 10वीं और 12वीं की मार्कशीट, ट्रांसफर सर्टिफिकेट, लागू होने पर माइग्रेशन सर्टिफिकेट, पहचान पत्र, पासपोर्ट आकार के फोटो, संबंधित होने पर जाति या आय प्रमाणपत्र, और एबीवीवी प्रवेश सूचना में बताए गए पाठ्यक्रम-विशिष्ट पात्रता दस्तावेज़ जमा करने होते हैं।"
+      "question": "Which official links should I use for Computer Science admission?",
+      "answerEnglish": "Use only official links: ABVV main website https://www.bilaspuruniversity.ac.in/, active application portal https://exam.bucgexam.in/, and the admission reference page https://exam.bucgexam.in/public/home/admission/1.",
+      "answerHindi": "केवल आधिकारिक लिंक का उपयोग करें: एबीवीवी मुख्य वेबसाइट https://www.bilaspuruniversity.ac.in/, सक्रिय आवेदन पोर्टल https://exam.bucgexam.in/, और प्रवेश संदर्भ पेज https://exam.bucgexam.in/public/home/admission/1।"
+    },
+    {
+      "question": "What Computer Science courses are covered for admission?",
+      "answerEnglish": "The current knowledge base covers B.Sc. Computer Science or Integrated M.Sc. CS, BCA, MCA, M.Sc. Computer Science, PGDCA, and Ph.D. in Computer Science and Application.",
+      "answerHindi": "वर्तमान नॉलेज बेस में बी.एससी. कंप्यूटर साइंस या इंटीग्रेटेड एम.एससी. सीएस, बीसीए, एमसीए, एम.एससी. कंप्यूटर साइंस, पीजीडीसीए, और पीएचडी इन कंप्यूटर साइंस एंड एप्लीकेशन शामिल हैं।"
+    },
+    {
+      "question": "What is the eligibility for BCA and B.Sc. Computer Science?",
+      "answerEnglish": "For BCA, students must pass 10+2 from any stream, but Mathematics must be passed as a core or additional subject. For B.Sc. Computer Science, 10+2 with Mathematics is compulsory. The provided CS admission notes indicate 50 percent aggregate for General or OBC and 45 percent for SC or ST candidates.",
+      "answerHindi": "बीसीए के लिए छात्र किसी भी स्ट्रीम से 10+2 पास हो सकता है, लेकिन गणित कोर या अतिरिक्त विषय के रूप में पास होना चाहिए। बी.एससी. कंप्यूटर साइंस के लिए 10+2 में गणित अनिवार्य है। उपलब्ध CS प्रवेश जानकारी के अनुसार सामान्य या OBC के लिए 50 प्रतिशत और SC या ST के लिए 45 प्रतिशत अंकों की आवश्यकता बताई गई है।"
+    },
+    {
+      "question": "What is the eligibility for MCA, M.Sc. CS, PGDCA, and Ph.D. CS?",
+      "answerEnglish": "MCA generally requires BCA, B.Sc. CS, B.Sc. IT, or an equivalent degree, and other graduates usually need Mathematics at 10+2 or graduation level. M.Sc. CS generally requires B.Sc. CS, B.Sc. IT, BCA, or equivalent technical graduation. PGDCA allows graduation in any discipline. Ph.D. CS usually requires a relevant master's degree with DET or valid exempted eligibility such as UGC-NET, CSIR-NET, or CGSET followed by interview.",
+      "answerHindi": "एमसीए के लिए सामान्यतः बीसीए, बी.एससी. सीएस, बी.एससी. आईटी, या समकक्ष डिग्री चाहिए, और अन्य स्नातकों के लिए 10+2 या ग्रेजुएशन स्तर पर गणित आवश्यक हो सकता है। एम.एससी. सीएस के लिए सामान्यतः बी.एससी. सीएस, बी.एससी. आईटी, बीसीए, या समकक्ष तकनीकी स्नातक डिग्री चाहिए। पीजीडीसीए किसी भी विषय के स्नातकों के लिए उपलब्ध है। पीएचडी सीएस के लिए संबंधित मास्टर डिग्री तथा DET या NET या SET जैसी मान्य पात्रता के बाद इंटरव्यू की आवश्यकता होती है।"
+    },
+    {
+      "question": "What documents are required for Computer Science admission?",
+      "answerEnglish": "Commonly required documents include 10th certificate, 12th marksheet for UG courses, all graduation marksheets for PG courses, transfer certificate, character certificate, migration certificate where applicable, domicile certificate for reservation claims, caste certificate, income certificate if needed, government ID proof, passport photographs, printed application form, and fee receipt.",
+      "answerHindi": "आम तौर पर आवश्यक दस्तावेजों में 10वीं प्रमाणपत्र, यूजी पाठ्यक्रमों के लिए 12वीं मार्कशीट, पीजी पाठ्यक्रमों के लिए ग्रेजुएशन की सभी मार्कशीट, ट्रांसफर सर्टिफिकेट, चरित्र प्रमाणपत्र, लागू होने पर माइग्रेशन सर्टिफिकेट, आरक्षण के लिए डोमिसाइल प्रमाणपत्र, जाति प्रमाणपत्र, आवश्यकता होने पर आय प्रमाणपत्र, सरकारी पहचान पत्र, पासपोर्ट फोटो, प्रिंटेड आवेदन फॉर्म, और शुल्क रसीद शामिल हैं।"
+    },
+    {
+      "question": "What are the important Computer Science admission dates for 2026?",
+      "answerEnglish": "The submitted CS admission notes mention a tentative 2026 timeline: portal opening around June 15, 2026, portal closing around July 15, 2026, first merit list around July 20 to July 25, 2026, and later counseling or spot rounds in late July to mid-August. Students should always confirm final dates on the official portal before acting.",
+      "answerHindi": "दिए गए CS प्रवेश नोट्स के अनुसार 2026 की संभावित समय-रेखा में पोर्टल 15 जून 2026 के आसपास खुलना, 15 जुलाई 2026 के आसपास बंद होना, पहली मेरिट सूची 20 से 25 जुलाई 2026 के बीच आना, और बाद की काउंसलिंग या स्पॉट राउंड जुलाई के अंत से अगस्त मध्य तक हो सकते हैं। अंतिम तिथियों की पुष्टि हमेशा आधिकारिक पोर्टल से करें।"
     }
   ]
 }

@@ -1,22 +1,47 @@
 {
   "title": "Fees",
   "highlights": [
-    "Fee requirements at ABVV Bilaspur depend on the course, semester, and whether the student is in a university teaching department or an affiliated college.",
-    "Students should rely on the latest university notice, portal update, or college office instruction for exact fee amounts and deadlines.",
-    "Exam, enrollment, and other academic charges may be announced separately by the university."
+    "Computer Science course fees at ABVV vary by program and by campus type, especially between the University Teaching Department (UTD) and affiliated colleges.",
+    "BCA and PGDCA fees in affiliated colleges can differ based on whether the allotted institution is government or private.",
+    "Minor variable charges such as examination fee, sports fee, development fee, and lab fee may be charged separately by semester or institution."
   ],
-  "defaultEnglish": "At ABVV, fee details vary by course and academic activity, so students should confirm the latest payable amount from the official portal, notice board, or their college office.",
-  "defaultHindi": "एबीवीवी में फीस विवरण पाठ्यक्रम और शैक्षणिक गतिविधि के अनुसार बदलता है, इसलिए छात्रों को देय राशि की पुष्टि आधिकारिक पोर्टल, नोटिस बोर्ड, या अपने कॉलेज कार्यालय से करनी चाहिए।",
+  "defaultEnglish": "For ABVV Computer Science fees, students should identify their course and whether they are admitted in the University Teaching Department or an affiliated college. The submitted fee notes show different ranges for BCA, PGDCA, and private-college variants, while UTD courses like B.Sc. CS, MCA, and M.Sc. CS have more direct published totals.",
+  "defaultHindi": "एबीवीवी कंप्यूटर साइंस फीस के लिए छात्र को पहले अपना कोर्स और यह स्पष्ट करना चाहिए कि प्रवेश यूटीडी में है या सम्बद्ध कॉलेज में। उपलब्ध फीस जानकारी के अनुसार बीसीए, पीजीडीसीए, और निजी कॉलेजों की फीस अलग हो सकती है, जबकि यूटीडी के बी.एससी. सीएस, एमसीए, और एम.एससी. सीएस जैसे पाठ्यक्रमों की फीस अधिक स्पष्ट रूप से दी गई है।",
   "faqs": [
     {
-      "question": "What is the fee structure?",
-      "answerEnglish": "The ABVV fee structure depends on the program and may include tuition fees, enrollment charges, examination fees, and other university or college components announced for the session.",
-      "answerHindi": "एबीवीवी की फीस संरचना कार्यक्रम के अनुसार अलग हो सकती है और इसमें ट्यूशन फीस, नामांकन शुल्क, परीक्षा शुल्क, तथा सत्र के लिए घोषित अन्य विश्वविद्यालय या कॉलेज शुल्क शामिल हो सकते हैं।"
+      "question": "What is the fee for B.Sc. Computer Science at ABVV?",
+      "answerEnglish": "For B.Sc. Honours in Computer Science at the University Teaching Department, the submitted fee data shows about INR 14,540 per year and about INR 43,630 total for 3 years. The 5-year integrated B.Sc. plus M.Sc. Computer Science path is listed at about INR 65,650 total.",
+      "answerHindi": "यूनिवर्सिटी टीचिंग डिपार्टमेंट में बी.एससी. ऑनर्स कंप्यूटर साइंस के लिए उपलब्ध फीस जानकारी के अनुसार लगभग 14,540 रुपये प्रति वर्ष और 3 वर्षों के लिए लगभग 43,630 रुपये कुल फीस है। 5-वर्षीय इंटीग्रेटेड बी.एससी. प्लस एम.एससी. कंप्यूटर साइंस की कुल फीस लगभग 65,650 रुपये बताई गई है।"
     },
     {
-      "question": "How can I pay my college fees?",
-      "answerEnglish": "Students should pay fees using the method mentioned in the latest ABVV notice, student portal workflow, or their affiliated college process. For exact payment support, contact the relevant office before the due date.",
-      "answerHindi": "छात्रों को नवीनतम एबीवीवी सूचना, छात्र पोर्टल प्रक्रिया, या सम्बद्ध कॉलेज की प्रक्रिया के अनुसार फीस जमा करनी चाहिए। सटीक भुगतान सहायता के लिए अंतिम तिथि से पहले संबंधित कार्यालय से संपर्क करें।"
+      "question": "What is the fee for BCA in ABVV affiliated colleges?",
+      "answerEnglish": "For BCA in affiliated colleges, the submitted data says government affiliated colleges usually range from about INR 24,000 to INR 30,000 per year, while private affiliated colleges are around INR 35,000 to INR 40,000 per year. The estimated 3-year total can therefore range from about INR 72,000 to INR 1,18,000 depending on the institute.",
+      "answerHindi": "सम्बद्ध कॉलेजों में बीसीए के लिए उपलब्ध जानकारी के अनुसार सरकारी सम्बद्ध कॉलेजों की फीस लगभग 24,000 से 30,000 रुपये प्रति वर्ष हो सकती है, जबकि निजी सम्बद्ध कॉलेजों में लगभग 35,000 से 40,000 रुपये प्रति वर्ष हो सकती है। इस प्रकार 3 वर्षों की कुल अनुमानित फीस संस्थान के अनुसार लगभग 72,000 से 1,18,000 रुपये तक हो सकती है।"
+    },
+    {
+      "question": "What is the fee for MCA at ABVV?",
+      "answerEnglish": "For MCA at the University Teaching Department, the submitted fee matrix shows an average yearly fee of about INR 25,735 and a total course fee of about INR 51,470 for 2 years.",
+      "answerHindi": "यूनिवर्सिटी टीचिंग डिपार्टमेंट में एमसीए के लिए उपलब्ध फीस जानकारी के अनुसार औसत फीस लगभग 25,735 रुपये प्रति वर्ष और 2 वर्षों की कुल फीस लगभग 51,470 रुपये है।"
+    },
+    {
+      "question": "What is the fee for M.Sc. Computer Science at ABVV?",
+      "answerEnglish": "For M.Sc. Computer Science at the University Teaching Department, the submitted information shows about INR 12,000 tuition plus about INR 2,735 miscellaneous charges per year, giving a total of about INR 29,470 for 2 years. In private affiliated colleges, the total may go up to about INR 54,100.",
+      "answerHindi": "यूनिवर्सिटी टीचिंग डिपार्टमेंट में एम.एससी. कंप्यूटर साइंस के लिए उपलब्ध जानकारी के अनुसार लगभग 12,000 रुपये ट्यूशन फीस और लगभग 2,735 रुपये अन्य शुल्क प्रति वर्ष हैं, जिससे 2 वर्षों की कुल फीस लगभग 29,470 रुपये बनती है। निजी सम्बद्ध कॉलेजों में यह कुल फीस लगभग 54,100 रुपये तक जा सकती है।"
+    },
+    {
+      "question": "What is the fee for PGDCA at ABVV?",
+      "answerEnglish": "For PGDCA in affiliated colleges, the submitted fee notes show a university minimum base fee of about INR 19,000, while private affiliated colleges may charge about INR 19,500 to INR 24,000 total for the 1-year program.",
+      "answerHindi": "सम्बद्ध कॉलेजों में पीजीडीसीए के लिए उपलब्ध फीस जानकारी के अनुसार विश्वविद्यालय का न्यूनतम आधार शुल्क लगभग 19,000 रुपये है, जबकि निजी सम्बद्ध कॉलेजों में 1-वर्षीय कार्यक्रम के लिए कुल फीस लगभग 19,500 से 24,000 रुपये तक हो सकती है।"
+    },
+    {
+      "question": "Do Computer Science students need to pay extra fees apart from tuition?",
+      "answerEnglish": "Yes, the submitted notes clearly mention that some variable components may apply separately, such as examination fees, sports development fees, and laboratory charges. Students should confirm these from their allotted department or college before payment.",
+      "answerHindi": "हाँ, उपलब्ध फीस नोट्स के अनुसार कुछ परिवर्ती शुल्क अलग से लग सकते हैं, जैसे परीक्षा शुल्क, खेल विकास शुल्क, और प्रयोगशाला शुल्क। छात्रों को भुगतान से पहले अपने विभाग या आवंटित कॉलेज से इनकी पुष्टि करनी चाहिए।"
+    },
+    {
+      "question": "Why do BCA and PGDCA fees vary so much?",
+      "answerEnglish": "The fee variation mainly depends on campus type. Government affiliated colleges usually charge lower fees, while private affiliated colleges charge higher totals. Students should always check the final fee from the specific college where admission is allotted.",
+      "answerHindi": "फीस में अंतर का मुख्य कारण कैंपस का प्रकार है। सरकारी सम्बद्ध कॉलेजों की फीस आमतौर पर कम होती है, जबकि निजी सम्बद्ध कॉलेजों में कुल शुल्क अधिक हो सकता है। छात्रों को हमेशा उसी कॉलेज से अंतिम फीस की पुष्टि करनी चाहिए जहाँ प्रवेश आवंटित हुआ है।"
     }
   ]
 }

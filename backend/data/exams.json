@@ -1,22 +1,77 @@
 {
   "title": "Exams and Results",
   "highlights": [
-    "ABVV publishes exam-related notices such as time table, results, and academic updates through its official website and student-facing sections.",
-    "Students should regularly check the official Time Table and Results sections for the latest announcements.",
-    "Course-specific exam instructions may also be shared through departments or affiliated colleges."
+    "Computer Science exam form submission, revaluation, and many student exam services are handled through the ABVV exam portal https://exam.bucgexam.in/.",
+    "Time tables are published on the ABVV website and students should check the latest notifications or Student's Corner examination sections for updates.",
+    "For results, students can use the direct result page at https://exam.bucgexam.in/public/home/result and search using roll number or registered name."
   ],
-  "defaultEnglish": "For ABVV exams and results, regularly check the official university website, especially the Time Table, Results, and notice sections.",
-  "defaultHindi": "एबीवीवी की परीक्षाओं और परिणामों के लिए विश्वविद्यालय की आधिकारिक वेबसाइट के टाइम टेबल, रिजल्ट, और सूचना अनुभाग को नियमित रूप से देखते रहें।",
+  "defaultEnglish": "For ABVV Computer Science exams and results, students should regularly monitor the official exam portal and university website. The submitted knowledge covers exam form filling, internal assessment rules, practical marking, timetable access, results, ATKT backlog progression, and revaluation deadlines.",
+  "defaultHindi": "एबीवीवी कंप्यूटर साइंस परीक्षा और परिणाम के लिए छात्रों को आधिकारिक परीक्षा पोर्टल और विश्वविद्यालय वेबसाइट नियमित रूप से देखनी चाहिए। उपलब्ध जानकारी में परीक्षा फॉर्म, आंतरिक मूल्यांकन नियम, प्रायोगिक अंक-वितरण, टाइम टेबल, परिणाम, एटीकेटी नियम, और पुनर्मूल्यांकन की समय-सीमा शामिल है।",
   "faqs": [
     {
-      "question": "When are the exam dates announced?",
-      "answerEnglish": "ABVV exam dates are announced through official notices and the Time Table section on the university website. Students should monitor those pages regularly for the latest semester schedule.",
-      "answerHindi": "एबीवीवी की परीक्षा तिथियाँ विश्वविद्यालय की आधिकारिक सूचनाओं और वेबसाइट के टाइम टेबल अनुभाग में घोषित की जाती हैं। नवीनतम सेमेस्टर कार्यक्रम के लिए छात्रों को इन्हें नियमित रूप से देखना चाहिए।"
+      "question": "How do I fill the ABVV exam form?",
+      "answerEnglish": "Open https://exam.bucgexam.in/, log in through the student dashboard using your enrollment number or user ID, verify your profile, select active papers, submit the form, pay the exam fee online, then print the form and receipt. The submitted knowledge says students should submit the printed copy to their department or college within 48 hours, otherwise the admit card may not be generated.",
+      "answerHindi": "https://exam.bucgexam.in/ खोलें, अपने नामांकन नंबर या यूजर आईडी से स्टूडेंट डैशबोर्ड में लॉगिन करें, प्रोफाइल सत्यापित करें, सक्रिय पेपर चुनें, फॉर्म जमा करें, ऑनलाइन परीक्षा शुल्क भरें, फिर फॉर्म और रसीद प्रिंट करें। उपलब्ध जानकारी के अनुसार 48 घंटे के भीतर प्रिंटेड कॉपी विभाग या कॉलेज में जमा करनी चाहिए, अन्यथा एडमिट कार्ड जारी नहीं हो सकता।"
+    },
+    {
+      "question": "What is the exam fee for semester or annual exams?",
+      "answerEnglish": "The submitted exam knowledge indicates the exam fee is usually around INR 1,200 to INR 1,450, paid online through UPI, debit card, or other banking options on the exam portal. Students should still confirm the exact amount shown on their portal session.",
+      "answerHindi": "उपलब्ध परीक्षा जानकारी के अनुसार परीक्षा शुल्क सामान्यतः लगभग 1,200 से 1,450 रुपये के बीच हो सकता है, जिसे परीक्षा पोर्टल पर UPI, डेबिट कार्ड, या अन्य बैंकिंग विकल्पों से जमा किया जाता है। फिर भी छात्रों को अपने पोर्टल पर प्रदर्शित सटीक राशि की पुष्टि करनी चाहिए।"
+    },
+    {
+      "question": "What is the internal marks scheme under NEP 2020?",
+      "answerEnglish": "The submitted CS exam notes say non-practical theory papers follow a 100-mark structure with 70 marks for the end-semester exam and 30 marks for internal assessment. Practical-oriented theory papers may follow a 70-mark structure with 50 marks for the final university exam and 20 marks for internals.",
+      "answerHindi": "उपलब्ध CS परीक्षा जानकारी के अनुसार गैर-प्रायोगिक सिद्धांत पत्रों में 100 अंकों की संरचना होती है, जिसमें 70 अंक एंड-सेमेस्टर परीक्षा के और 30 अंक आंतरिक मूल्यांकन के होते हैं। प्रायोगिक-उन्मुख सिद्धांत पत्रों में 70 अंकों की संरचना हो सकती है, जिसमें 50 अंक विश्वविद्यालय परीक्षा के और 20 अंक आंतरिक मूल्यांकन के होते हैं।"
+    },
+    {
+      "question": "How are the 30 internal marks divided?",
+      "answerEnglish": "The provided notes divide 30 internal marks into 20 marks for written tests or assignments, 5 marks for attendance and conduct, and 5 marks for group discussion, presentation, or fieldwork components.",
+      "answerHindi": "उपलब्ध जानकारी के अनुसार 30 आंतरिक अंकों का विभाजन इस प्रकार है: 20 अंक लिखित टेस्ट या असाइनमेंट के लिए, 5 अंक उपस्थिति और व्यवहार के लिए, तथा 5 अंक समूह चर्चा, प्रस्तुति, या फील्डवर्क के लिए।"
+    },
+    {
+      "question": "What is the attendance requirement for exams?",
+      "answerEnglish": "The submitted rules clearly mention a minimum of 75 percent attendance to remain eligible for internal evaluation and to sit in the final university examinations.",
+      "answerHindi": "उपलब्ध नियमों के अनुसार आंतरिक मूल्यांकन और अंतिम विश्वविद्यालय परीक्षा में बैठने के लिए न्यूनतम 75 प्रतिशत उपस्थिति आवश्यक है।"
+    },
+    {
+      "question": "How are practical exams evaluated?",
+      "answerEnglish": "The shared exam notes say practical exams are commonly assessed at the end of even semesters or on the regular annual cycle. A practical paper of 60 marks is divided into 40 marks for the assigned experiment, 10 marks for the laboratory notebook or record, and 10 marks for viva voce. Evaluation is done jointly by an internal teacher and an external expert.",
+      "answerHindi": "साझा परीक्षा जानकारी के अनुसार प्रायोगिक परीक्षाएँ सामान्यतः सम सेमेस्टरों के अंत में या नियमित वार्षिक चक्र में आयोजित होती हैं। 60 अंकों के प्रायोगिक पत्र में 40 अंक प्रयोग प्रदर्शन, 10 अंक प्रयोगशाला रिकॉर्ड या नोटबुक, और 10 अंक वाइवा के लिए होते हैं। मूल्यांकन आंतरिक शिक्षक और बाह्य विशेषज्ञ द्वारा संयुक्त रूप से किया जाता है।"
+    },
+    {
+      "question": "Where can I check the timetable?",
+      "answerEnglish": "Students should check the ABVV website home page notifications or the Student's Corner examination timetable section. The submitted notes mention downloadable PDF time tables with subject-wise schedules and shift details such as 7 AM to 10 AM or 11 AM to 2 PM.",
+      "answerHindi": "छात्रों को एबीवीवी वेबसाइट के होम पेज नोटिफिकेशन या स्टूडेंट्स कॉर्नर के परीक्षा टाइम टेबल अनुभाग को देखना चाहिए। उपलब्ध जानकारी के अनुसार टाइम टेबल PDF के रूप में जारी हो सकता है, जिसमें विषयवार कार्यक्रम और शिफ्ट जैसे सुबह 7 से 10 बजे या 11 से 2 बजे तक का समय दिया जाता है।"
     },
     {
       "question": "How can I check my result?",
-      "answerEnglish": "You can check your ABVV result from the official Results section on the university website by using the required examination details such as roll number or other credentials shown there.",
-      "answerHindi": "आप एबीवीवी का परिणाम विश्वविद्यालय की आधिकारिक वेबसाइट के रिजल्ट अनुभाग से देख सकते हैं, जहाँ रोल नंबर या मांगी गई परीक्षा संबंधी जानकारी दर्ज करनी होती है।"
+      "answerEnglish": "Go to https://exam.bucgexam.in/public/home/result, choose your course and publication date, click the result link, then enter your roll number or full registered name and use the Get Result option to view the marksheet.",
+      "answerHindi": "https://exam.bucgexam.in/public/home/result पर जाएँ, अपना कोर्स और परिणाम प्रकाशन तिथि चुनें, रिजल्ट लिंक खोलें, फिर अपना रोल नंबर या पूरा पंजीकृत नाम दर्ज करके Get Result विकल्प का उपयोग करें।"
+    },
+    {
+      "question": "What is ATKT or backlog rule in ABVV?",
+      "answerEnglish": "The submitted knowledge defines ATKT as Allowed To Keep Terms and says it may apply if a student fails to secure the minimum 40 percent marks in up to two core papers. Students may move to the next semester with backlog papers, but they cannot complete the final year unless all previous backlog papers are cleared.",
+      "answerHindi": "उपलब्ध जानकारी के अनुसार ATKT का अर्थ Allowed To Keep Terms है, और यह उस स्थिति में लागू हो सकता है जब छात्र अधिकतम दो मुख्य विषयों में न्यूनतम 40 प्रतिशत अंक प्राप्त न कर पाए। छात्र बैकलॉग पेपर के साथ अगले सेमेस्टर में जा सकता है, लेकिन अंतिम वर्ष पूरा करने से पहले सभी पुराने बैकलॉग साफ होने चाहिए।"
+    },
+    {
+      "question": "When are backlog or supplementary exams held?",
+      "answerEnglish": "The shared rules say odd semester backlogs are usually handled in later odd semester cycles and even semester backlogs in even semester cycles. Special ATKT examinations may be held in July for final-year students.",
+      "answerHindi": "साझा नियमों के अनुसार विषम सेमेस्टर के बैकलॉग सामान्यतः अगले विषम सेमेस्टर चक्र में और सम सेमेस्टर के बैकलॉग अगले सम सेमेस्टर चक्र में आयोजित होते हैं। अंतिम वर्ष के छात्रों के लिए जुलाई में विशेष ATKT परीक्षा भी हो सकती है।"
+    },
+    {
+      "question": "How do I apply for revaluation or retotalling?",
+      "answerEnglish": "Students should use the Revaluation or Retotalling tab on https://exam.bucgexam.in/ and apply within 15 days from the result publication date. The submitted rules say revaluation means full rechecking by another examiner and may be limited to two theory subjects per semester, while retotalling only checks counting errors.",
+      "answerHindi": "छात्रों को https://exam.bucgexam.in/ पर Revaluation या Retotalling टैब का उपयोग करना चाहिए और परिणाम जारी होने की तिथि से 15 दिनों के भीतर आवेदन करना चाहिए। उपलब्ध नियमों के अनुसार revaluation में उत्तरपुस्तिका का पुनर्मूल्यांकन होता है और यह प्रति सेमेस्टर अधिकतम दो सिद्धांत विषयों तक सीमित हो सकता है, जबकि retotalling में केवल जोड़-घटाव की त्रुटियाँ जाँची जाती हैं।"
+    },
+    {
+      "question": "What is the fee for revaluation and retotalling?",
+      "answerEnglish": "The submitted notes mention about INR 350 per paper for revaluation and about INR 150 per paper for retotalling. Students should verify the exact portal amount before payment.",
+      "answerHindi": "उपलब्ध जानकारी के अनुसार revaluation के लिए लगभग 350 रुपये प्रति पेपर और retotalling के लिए लगभग 150 रुपये प्रति पेपर शुल्क हो सकता है। भुगतान से पहले छात्रों को पोर्टल पर प्रदर्शित राशि की पुष्टि करनी चाहिए।"
+    },
+    {
+      "question": "Can marks decrease after revaluation?",
+      "answerEnglish": "Yes. The submitted knowledge clearly notes that after revaluation, marks may increase, remain unchanged, or decrease.",
+      "answerHindi": "हाँ। उपलब्ध जानकारी के अनुसार पुनर्मूल्यांकन के बाद अंक बढ़ भी सकते हैं, समान भी रह सकते हैं, या कम भी हो सकते हैं।"
     }
   ]
 }

@@ -1,0 +1,19 @@
+[
+  {
+    "email": "student.abvv@gmail.com",
+    "name": "ABVV Student",
+    "role": "student",
+    "studentId": "ABVV-2025-0001",
+    "enrollmentNumber": "23014567",
+    "admissionYear": "2025",
+    "salt": "5f5bcb1efcc3182569d2cd26a2bf2a65",
+    "passwordHash": "7205515fe22ea83b3d9b114efb3fbcdfde04dd0ba2d7185fa267bf7c28120f06047277d0a19cb998502ec919546d9b01db1b85d34592d650c4fdaae7046aa62d"
+  },
+  {
+    "email": "admin.abvv@gmail.com",
+    "name": "ABVV Admin",
+    "role": "admin",
+    "salt": "e4950a559a7984a23beed587728d8dff",
+    "passwordHash": "d0568f5e265f91593c3bdfdb143d4ca17bb8218db5444886372749fb89bbc8fb935f0ceadeaa2a11ef18da66bd4fbea0670a0ae267bd5e69c355937e11191888"
+  }
+]

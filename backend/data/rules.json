@@ -1,0 +1,97 @@
+{
+  "title": "Attendance, Discipline, Lab, and Project Rules",
+  "highlights": [
+    "Computer Science students must maintain at least 75 percent attendance separately in theory classes and practical labs.",
+    "If final attendance falls below required thresholds, the student can be blocked from admit card generation and examination eligibility.",
+    "Department discipline rules also cover ID-card use, anti-ragging enforcement, device restrictions, lab conduct, project approvals, viva expectations, and restricted-response safety rules for the chatbot."
+  ],
+  "defaultEnglish": "For Computer Science department rules, students should pay special attention to attendance, lab records, project approvals, campus discipline, and restricted-response categories. The submitted knowledge includes shortage condonation rules, lab attendance cutoffs, project documentation requirements, practical or viva expectations, and a fallback policy for questions that should not be guessed by the chatbot.",
+  "defaultHindi": "कंप्यूटर साइंस विभागीय नियमों के लिए छात्रों को विशेष रूप से उपस्थिति, लैब रिकॉर्ड, प्रोजेक्ट स्वीकृति, कैंपस अनुशासन, और restricted-response श्रेणियों पर ध्यान देना चाहिए। उपलब्ध जानकारी में उपस्थिति छूट नियम, लैब उपस्थिति कट-ऑफ, प्रोजेक्ट दस्तावेज़ीकरण आवश्यकताएँ, प्रैक्टिकल या वाइवा अपेक्षाएँ, और ऐसे प्रश्नों के लिए fallback नीति शामिल है जिनका अनुमान चैटबॉट को नहीं लगाना चाहिए।",
+  "faqs": [
+    {
+      "question": "What is the minimum attendance requirement?",
+      "answerEnglish": "The submitted attendance policy says every regular Computer Science student must maintain at least 75 percent attendance in theory classes. Practical lab attendance is tracked separately and also requires at least 75 percent.",
+      "answerHindi": "उपलब्ध उपस्थिति नीति के अनुसार प्रत्येक नियमित कंप्यूटर साइंस छात्र को थ्योरी कक्षाओं में कम से कम 75 प्रतिशत उपस्थिति रखनी होती है। प्रायोगिक लैब उपस्थिति अलग से दर्ज होती है और उसके लिए भी कम से कम 75 प्रतिशत उपस्थिति आवश्यक है।"
+    },
+    {
+      "question": "Can I be stopped from exams due to attendance shortage?",
+      "answerEnglish": "Yes. The submitted rules say if a student fails to meet the 75 percent requirement in theory or practical attendance, the system can block admit card generation and exam eligibility.",
+      "answerHindi": "हाँ। उपलब्ध नियमों के अनुसार यदि छात्र थ्योरी या प्रायोगिक उपस्थिति में 75 प्रतिशत की शर्त पूरी नहीं करता, तो सिस्टम एडमिट कार्ड और परीक्षा पात्रता रोक सकता है।"
+    },
+    {
+      "question": "Is there any medical condonation for attendance shortage?",
+      "answerEnglish": "Yes, the submitted policy says up to 15 percent condonation may be considered for medical reasons, bringing the practical lower bound to 60 percent. Students must submit a government medical certificate and parent-signed application within 7 working days of returning to classes.",
+      "answerHindi": "हाँ, उपलब्ध नीति के अनुसार चिकित्सीय कारणों पर अधिकतम 15 प्रतिशत तक छूट मिल सकती है, जिससे न्यूनतम सीमा 60 प्रतिशत तक आ सकती है। छात्रों को कक्षा में लौटने के 7 कार्यदिवसों के भीतर सरकारी चिकित्सा प्रमाणपत्र और अभिभावक-हस्ताक्षरित आवेदन जमा करना होता है।"
+    },
+    {
+      "question": "What happens if attendance goes below 60 percent?",
+      "answerEnglish": "The submitted rule treats below 60 percent as a red-line case. Such students cannot clear shortage through normal medical relaxation and may be marked detained or ex-student, requiring them to repeat the semester with the next batch.",
+      "answerHindi": "उपलब्ध नियमों के अनुसार 60 प्रतिशत से कम उपस्थिति गंभीर स्थिति मानी जाती है। ऐसे छात्र सामान्य चिकित्सीय छूट से कमी पूरी नहीं कर सकते और उन्हें detained या ex-student मानकर अगले बैच के साथ सेमेस्टर दोहराना पड़ सकता है।"
+    },
+    {
+      "question": "Can NSS, sports, or cultural participation help with attendance shortage?",
+      "answerEnglish": "Yes, the submitted rules say officially approved sports, NSS, or cultural participation can be considered through duty leave or OD credit, but authenticated participation records must be routed to the HOD office.",
+      "answerHindi": "हाँ, उपलब्ध नियमों के अनुसार स्वीकृत खेल, NSS, या सांस्कृतिक गतिविधियों के लिए duty leave या OD credit मिल सकता है, लेकिन प्रमाणित भागीदारी दस्तावेज़ HOD कार्यालय में जमा होने चाहिए।"
+    },
+    {
+      "question": "What are the important campus discipline rules?",
+      "answerEnglish": "The submitted discipline rules say students should wear their ID card on campus, avoid non-academic device use in class, follow anti-ragging rules strictly, follow the prescribed dress code, and maintain lab discipline including no food or beverages in labs.",
+      "answerHindi": "उपलब्ध अनुशासन नियमों के अनुसार छात्रों को कैंपस में आईडी कार्ड पहनना चाहिए, कक्षा में गैर-शैक्षणिक मोबाइल या डिवाइस उपयोग से बचना चाहिए, एंटी-रैगिंग नियमों का कड़ाई से पालन करना चाहिए, निर्धारित ड्रेस कोड का पालन करना चाहिए, और लैब में भोजन या पेय पदार्थ नहीं लाने चाहिए।"
+    },
+    {
+      "question": "What are the lab attendance and record rules?",
+      "answerEnglish": "The shared lab policy says practical attendance is separate from theory attendance and at least 75 percent practical attendance is required for practical exam eligibility. Students must enter their name, system number, login time, and compilation topic in the lab register, and they are responsible for the assigned system.",
+      "answerHindi": "साझा लैब नीति के अनुसार प्रायोगिक उपस्थिति थ्योरी से अलग दर्ज की जाती है, और प्रायोगिक परीक्षा में बैठने के लिए कम से कम 75 प्रतिशत लैब उपस्थिति आवश्यक है। छात्रों को लैब रजिस्टर में अपना नाम, सिस्टम नंबर, लॉगिन समय, और कार्य का विवरण दर्ज करना होता है, तथा वे अपने आवंटित सिस्टम के लिए जिम्मेदार होते हैं।"
+    },
+    {
+      "question": "What are the practical file rules?",
+      "answerEnglish": "The submitted lab-journal rules require a physical practical file. Left pages are used for diagrams or flowcharts and right pages for handwritten code notes. Each experiment should include title, objective, source code, and output or screenshots. The file should be checked and signed within 7 days of assignment, otherwise the student may receive zero marks for uncertified work.",
+      "answerHindi": "उपलब्ध लैब-जर्नल नियमों के अनुसार प्रत्येक प्रैक्टिकल के लिए भौतिक रिकॉर्ड फाइल आवश्यक है। बाएँ पन्नों पर diagram या flowchart और दाएँ पन्नों पर हाथ से लिखे गए कोड नोट्स होने चाहिए। प्रत्येक प्रयोग में शीर्षक, उद्देश्य, source code, और output या screenshot होना चाहिए। असाइनमेंट के 7 दिनों के भीतर फाइल जाँचकर हस्ताक्षरित होनी चाहिए, अन्यथा uncertified कार्य पर शून्य अंक मिल सकते हैं।"
+    },
+    {
+      "question": "What are the mini-project rules?",
+      "answerEnglish": "The submitted project notes say mini-projects are usually assigned in the 3rd or 4th semester for BCA or B.Sc. CS. They may be individual or in groups of up to 3 students and should include a short spiral-bound report of around 15 to 20 pages.",
+      "answerHindi": "उपलब्ध प्रोजेक्ट जानकारी के अनुसार मिनी-प्रोजेक्ट सामान्यतः BCA या B.Sc. CS के 3rd या 4th semester में दिए जाते हैं। ये व्यक्तिगत या अधिकतम 3 छात्रों के समूह में हो सकते हैं, और इनके साथ लगभग 15 से 20 पृष्ठ की spiral-bound रिपोर्ट जमा करनी होती है।"
+    },
+    {
+      "question": "What are the final-year major project rules?",
+      "answerEnglish": "The submitted policy says final-semester major projects are usually individual, though up to 2 students may be allowed in special approved cases. The project should be a full software or data-driven system and normally requires a formal hard-bound thesis of about 60 to 80 pages with standard chapters like abstract, literature review, design, implementation, testing, and future scope.",
+      "answerHindi": "उपलब्ध नीति के अनुसार अंतिम सेमेस्टर के major project सामान्यतः व्यक्तिगत होते हैं, हालांकि विशेष स्वीकृत स्थिति में 2 छात्रों तक की टीम की अनुमति हो सकती है। प्रोजेक्ट एक पूर्ण software या data-driven system होना चाहिए, और सामान्यतः लगभग 60 से 80 पृष्ठ की hard-bound thesis जमा करनी होती है, जिसमें abstract, literature review, design, implementation, testing, और future scope जैसे अध्याय शामिल हों।"
+    },
+    {
+      "question": "How does project approval work?",
+      "answerEnglish": "The submitted process uses three stages: first, students submit a 2-page synopsis with platform, backend, problem statement, and if relevant an internship confirmation. Second, the department project committee approves or rejects the topic. Third, students present progress in mid-semester review and may need resubmission if they deviate from the approved plan.",
+      "answerHindi": "उपलब्ध प्रक्रिया के अनुसार प्रोजेक्ट स्वीकृति तीन चरणों में होती है: पहले छात्र 2-पृष्ठ synopsis जमा करते हैं, जिसमें platform, backend, problem statement, और आवश्यक होने पर internship confirmation शामिल होता है। दूसरे चरण में विभागीय project committee विषय को स्वीकृत या अस्वीकृत करती है। तीसरे चरण में mid-semester review में प्रगति प्रस्तुत करनी होती है, और approved plan से deviation होने पर resubmission करना पड़ सकता है।"
+    },
+    {
+      "question": "What happens in viva or project defense?",
+      "answerEnglish": "The submitted viva protocol says practical and project viva are evaluated by an internal guide and an external examiner. Students should be prepared to run the project live, explain architecture, database design, exception handling, and security decisions. If the project does not run or the student cannot explain the work, the panel may fail the candidate.",
+      "answerHindi": "उपलब्ध वाइवा प्रक्रिया के अनुसार प्रैक्टिकल और प्रोजेक्ट वाइवा का मूल्यांकन एक आंतरिक मार्गदर्शक और एक बाह्य परीक्षक द्वारा किया जाता है। छात्र को प्रोजेक्ट live चलाकर दिखाना, architecture, database design, exception handling, और security decisions समझाना आना चाहिए। यदि प्रोजेक्ट नहीं चलता या छात्र अपना कार्य नहीं समझा पाता, तो पैनल असफल घोषित कर सकता है।"
+    },
+    {
+      "question": "What should the chatbot not answer without official confirmation?",
+      "answerEnglish": "The submitted safety restrictions say the chatbot must not guess exact merit cutoffs, exact result or merit-list release dates, altered or unpublished fee parameters, or confidential faculty or administrative matters such as grading panels or unpublished viva schedules.",
+      "answerHindi": "उपलब्ध safety restrictions के अनुसार चैटबॉट को exact merit cutoff, exact result या merit list release date, altered या unpublished fee details, या confidential faculty and administrative matters जैसे grading panel या unpublished viva schedule का अनुमान लगाकर उत्तर नहीं देना चाहिए।"
+    },
+    {
+      "question": "What is the official fallback message if data is not confirmed?",
+      "answerEnglish": "I do not have the officially confirmed data to answer this specific query right now. To avoid incorrect information regarding cut-offs, unannounced dates, or administrative changes, please refer directly to the verified channels below.",
+      "answerHindi": "मेरे पास इस विशेष प्रश्न का आधिकारिक रूप से पुष्टि किया गया डेटा इस समय उपलब्ध नहीं है। cut-off, अप्रकाशित तिथियों, या प्रशासनिक परिवर्तनों के बारे में गलत जानकारी से बचने के लिए कृपया नीचे दिए गए verified channels का उपयोग करें।"
+    },
+    {
+      "question": "Where should students go for seat allotment or transaction status issues?",
+      "answerEnglish": "For merit seat allocation and transaction-status issues, students should log in to the online admission portal at https://exam.bucgexam.in/.",
+      "answerHindi": "merit seat allotment और transaction status से जुड़ी समस्याओं के लिए छात्रों को ऑनलाइन admission portal https://exam.bucgexam.in/ पर लॉगिन करना चाहिए।"
+    },
+    {
+      "question": "Where should students go for timetable changes or academic circulars?",
+      "answerEnglish": "For general academic circulars and timetable changelogs, students should monitor the main university website notification panel at https://www.bilaspuruniversity.ac.in/.",
+      "answerHindi": "general academic circulars और timetable changes के लिए छात्रों को मुख्य विश्वविद्यालय वेबसाइट https://www.bilaspuruniversity.ac.in/ के notification panel को देखना चाहिए।"
+    },
+    {
+      "question": "Where should students go for internal marks correction or eligibility disputes?",
+      "answerEnglish": "For correction of internal marks or academic eligibility disputes, the submitted routing policy says students should report in person to the Department of Computer Science and Application office during working hours, with primary escalation to the HOD office in the Main Campus UTD Block, Koni, Bilaspur.",
+      "answerHindi": "internal marks correction या academic eligibility dispute के लिए उपलब्ध routing policy के अनुसार छात्रों को कार्य समय के दौरान Department of Computer Science and Application office में व्यक्तिगत रूप से जाना चाहिए, और मुख्य escalation HOD office, Main Campus UTD Block, Koni, Bilaspur में है।"
+    }
+  ]
+}

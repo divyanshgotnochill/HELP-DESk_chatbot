@@ -1,7 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { api } from "../lib/api";
 import { useAppShell } from "../components/ToastProvider";
+import { useAuth } from "../components/AuthProvider";
+import universityLogo from "/logo1068884560788.webp";
 
 const CHAT_STORAGE_KEY = "campus-assist-conversations";
 const quickActions = ["Admission", "Fees", "Results", "Documents", "Scholarship"];
@@ -10,6 +12,18 @@ const officialLinks = [
   { label: "Campus Contact", href: "https://www.bilaspuruniversity.ac.in/" },
   { label: "Student Notices", href: "https://www.bilaspuruniversity.ac.in/" },
 ];
+
+function TrashIcon({ className = "h-4 w-4" }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className={className} aria-hidden="true">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M4 7h16" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M9 7V5.75A1.75 1.75 0 0 1 10.75 4h2.5A1.75 1.75 0 0 1 15 5.75V7" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M7.75 7l.7 10.53A2 2 0 0 0 10.44 19.5h3.12a2 2 0 0 0 1.99-1.97L16.25 7" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M10 10.5v5" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M14 10.5v5" />
+    </svg>
+  );
+}
 
 function createConversation() {
   return {
@@ -28,6 +42,10 @@ function createConversation() {
   };
 }
 
+function createInitialConversationSet() {
+  return [createConversation()];
+}
+
 function formatTime(value) {
   return new Intl.DateTimeFormat("en-IN", {
     hour: "numeric",
@@ -37,9 +55,11 @@ function formatTime(value) {
 
 export default function ChatPage() {
   const { theme, toggleTheme, notify } = useAppShell();
+  const { user, logout } = useAuth();
+  const navigate = useNavigate();
   const [conversations, setConversations] = useState(() => {
     const raw = localStorage.getItem(CHAT_STORAGE_KEY);
-    return raw ? JSON.parse(raw) : [createConversation()];
+    return raw ? JSON.parse(raw) : createInitialConversationSet();
   });
   const [activeId, setActiveId] = useState(() => {
     const raw = localStorage.getItem(CHAT_STORAGE_KEY);
@@ -69,7 +89,7 @@ export default function ChatPage() {
     api
       .getFaqs()
       .then(setFaqState)
-      .catch(() => notify("Unable to load FAQs right now.", "error"));
+      .catch((error) => notify(error.message || "Unable to load FAQs right now.", "error"));
   }, [notify]);
 
   useEffect(() => {
@@ -132,6 +152,10 @@ export default function ChatPage() {
         ),
       );
     } catch (error) {
+      if (error.message === "Authentication required.") {
+        logout();
+        navigate("/login", { replace: true });
+      }
       notify(error.message || "Failed to send message.", "error");
     } finally {
       setLoading(false);
@@ -158,6 +182,29 @@ export default function ChatPage() {
     setActiveId(conversation.id);
   }
 
+  function deleteConversation(conversationId) {
+    setConversations((current) => {
+      const nextConversations = current.filter((item) => item.id !== conversationId);
+      const safeConversations = nextConversations.length > 0 ? nextConversations : createInitialConversationSet();
+      const currentActiveExists = safeConversations.some((item) => item.id === activeId);
+      setActiveId(currentActiveExists ? activeId : safeConversations[0].id);
+      return safeConversations;
+    });
+    notify("Conversation deleted.");
+  }
+
+  function clearAllConversations() {
+    const nextConversations = createInitialConversationSet();
+    setConversations(nextConversations);
+    setActiveId(nextConversations[0].id);
+    notify("All conversations cleared.");
+  }
+
+  function handleLogout() {
+    logout();
+    navigate("/login", { replace: true });
+  }
+
   return (
     <div className="min-h-screen px-3 py-3 md:px-5 md:py-5">
       <div className="mx-auto grid min-h-[calc(100vh-1.5rem)] max-w-7xl gap-4 lg:grid-cols-[320px,1fr]">
@@ -169,14 +216,26 @@ export default function ChatPage() {
                 <p className="text-sm text-slate-500 dark:text-slate-400">
                   Atal Bihari Vajpayee Vishwavidyalaya, Bilaspur
                 </p>
+                <p className="mt-2 text-xs font-semibold uppercase tracking-[0.2em] text-emerald-600 dark:text-emerald-300">
+                  {user?.role} access
+                </p>
               </div>
-              <button
-                type="button"
-                onClick={toggleTheme}
-                className="rounded-full border border-slate-200 px-3 py-2 text-xs font-semibold text-slate-600 transition hover:border-sky-300 hover:text-sky-600 dark:border-slate-700 dark:text-slate-300"
-              >
-                {theme === "dark" ? "Light" : "Dark"}
-              </button>
+              <div className="flex gap-2">
+                <button
+                  type="button"
+                  onClick={toggleTheme}
+                  className="rounded-full border border-slate-200 px-3 py-2 text-xs font-semibold text-slate-600 transition hover:border-sky-300 hover:text-sky-600 dark:border-slate-700 dark:text-slate-300"
+                >
+                  {theme === "dark" ? "Light" : "Dark"}
+                </button>
+                <button
+                  type="button"
+                  onClick={handleLogout}
+                  className="rounded-full border border-slate-200 px-3 py-2 text-xs font-semibold text-slate-600 transition hover:border-rose-300 hover:text-rose-600 dark:border-slate-700 dark:text-slate-300"
+                >
+                  Logout
+                </button>
+              </div>
             </div>
             <button
               type="button"
@@ -185,33 +244,65 @@ export default function ChatPage() {
             >
               New conversation
             </button>
+            <button
+              type="button"
+              onClick={clearAllConversations}
+              className="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-700 transition hover:border-rose-300 hover:text-rose-600 dark:border-slate-700 dark:text-slate-200"
+            >
+              Delete all conversations
+            </button>
           </div>
 
           <div className="scrollbar flex-1 space-y-2 overflow-y-auto p-3">
             {conversations.map((item) => (
-              <button
+              <div
                 key={item.id}
-                type="button"
-                onClick={() => setActiveId(item.id)}
-                className={`w-full rounded-2xl p-4 text-left transition ${
+                className={`rounded-2xl p-2 transition ${
                   item.id === activeId
                     ? "bg-slate-900 text-white dark:bg-sky-500"
                     : "bg-white/70 text-slate-700 hover:bg-slate-100 dark:bg-slate-900/70 dark:text-slate-200 dark:hover:bg-slate-800"
                 }`}
               >
-                <p className="truncate font-semibold">{item.title}</p>
-                <p className="mt-1 text-xs opacity-70">{new Date(item.createdAt).toLocaleDateString("en-IN")}</p>
-              </button>
+                <div className="flex items-start gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setActiveId(item.id)}
+                    className="min-w-0 flex-1 px-2 pb-2 pt-2 text-left"
+                  >
+                    <p className="truncate font-semibold">{item.title}</p>
+                    <p className="mt-1 text-xs opacity-70">{new Date(item.createdAt).toLocaleDateString("en-IN")}</p>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => deleteConversation(item.id)}
+                    aria-label={`Delete conversation ${item.title}`}
+                    title="Delete conversation"
+                    className={`mt-1 inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border transition ${
+                      item.id === activeId
+                        ? "border-white/25 text-white hover:bg-white/10"
+                        : "border-slate-200 text-slate-600 hover:border-rose-300 hover:text-rose-600 dark:border-slate-700 dark:text-slate-300"
+                    }`}
+                  >
+                    <TrashIcon />
+                  </button>
+                </div>
+              </div>
             ))}
           </div>
 
           <div className="border-t border-slate-200/70 p-4 dark:border-slate-800">
-            <Link
-              to="/admin"
-              className="block rounded-2xl border border-slate-200 px-4 py-3 text-center text-sm font-semibold text-slate-700 transition hover:border-emerald-300 hover:text-emerald-600 dark:border-slate-700 dark:text-slate-200"
-            >
-              Admin knowledge editor
-            </Link>
+            {user?.role === "admin" ? (
+              <Link
+                to="/admin"
+                className="block rounded-2xl border border-slate-200 px-4 py-3 text-center text-sm font-semibold text-slate-700 transition hover:border-emerald-300 hover:text-emerald-600 dark:border-slate-700 dark:text-slate-200"
+              >
+                Admin knowledge editor
+              </Link>
+            ) : (
+              <div className="rounded-2xl bg-slate-100 px-4 py-3 text-center text-sm text-slate-500 dark:bg-slate-900 dark:text-slate-400">
+                Student mode: admin tools are hidden.
+              </div>
+            )}
           </div>
         </aside>
 
@@ -220,8 +311,12 @@ export default function ChatPage() {
             <header className="border-b border-slate-200/70 px-5 py-5 dark:border-slate-800">
               <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
                 <div className="flex items-center gap-4">
-                  <div className="flex h-14 w-14 animate-float items-center justify-center rounded-2xl bg-gradient-to-br from-sky-500 to-emerald-400 text-base font-bold text-white shadow-soft">
-                    ABVV
+                  <div className="flex h-16 w-16 shrink-0 animate-float items-center justify-center rounded-[22px] border border-slate-200/70 bg-white p-2 shadow-soft dark:border-slate-700 dark:bg-slate-950">
+                    <img
+                      src={universityLogo}
+                      alt="Atal Bihari Vajpayee Vishwavidyalaya logo"
+                      className="h-full w-full object-contain"
+                    />
                   </div>
                   <div>
                     <h1 className="font-display text-2xl font-semibold">Student AI HelpDesk</h1>
@@ -296,7 +391,7 @@ export default function ChatPage() {
                   <button
                     type="button"
                     onClick={() => sendMessage()}
-                    className="rounded-2xl bg-gradient-to-r from-sky-500 to-emerald-400 px-5 py-3 text-sm font-semibold text-white transition hover:opacity-90"
+                    className="rounded-2xl dark:bg-white dark:text-black px-5 py-3 text-sm font-semibold text-white transition hover:opacity-90"
                   >
                     Send
                   </button>

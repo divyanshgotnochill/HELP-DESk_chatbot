@@ -1,22 +1,57 @@
 {
   "title": "Office Timings and Contacts",
   "highlights": [
-    "Atal Bihari Vajpayee Vishwavidyalaya is located on Bilaspur-Ratanpur Road, Koni, Bilaspur, Chhattisgarh 495009.",
-    "The official university website is https://www.bilaspuruniversity.ac.in/.",
-    "The main listed university contact number is 8889928648 and the published email is registrarbilaspuruniversity@gmail.com."
+    "The Computer Science and Application department is located in the Main Campus Building, University Teaching Department block, in front of Koni Police Thana, Bilaspur-Ratanpur Road, Koni, Bilaspur, Chhattisgarh 495009.",
+    "The Head of Department for Computer Science and Application is Dr. H.S. Hota, and the official department email is hodcsa@abvv.ac.in.",
+    "The central admission helpline is +91 9691306621 and the technical portal issue helpline is +91 9203391388 during active form-processing timelines."
   ],
-  "defaultEnglish": "For ABVV contact help, visit the official website, call the university on 8889928648, or refer to the concerned office details published by the university.",
-  "defaultHindi": "एबीवीवी से संपर्क सहायता के लिए आधिकारिक वेबसाइट देखें, 8889928648 पर विश्वविद्यालय से संपर्क करें, या विश्वविद्यालय द्वारा प्रकाशित संबंधित कार्यालय की जानकारी देखें।",
+  "defaultEnglish": "For Computer Science department help, students should contact the correct department person based on the issue. General academic leadership matters should go to the HOD, while exam, lab, event, and portal issues should be directed to the responsible coordinator listed by the department.",
+  "defaultHindi": "कंप्यूटर साइंस विभाग से संबंधित सहायता के लिए छात्रों को प्रश्न के प्रकार के अनुसार सही जिम्मेदार व्यक्ति से संपर्क करना चाहिए। सामान्य शैक्षणिक नेतृत्व से जुड़े विषय HOD को भेजें, जबकि परीक्षा, लैब, कार्यक्रम, और पोर्टल समस्याएँ संबंधित समन्वयक को भेजी जानी चाहिए।",
   "faqs": [
     {
-      "question": "What are the office timings?",
-      "answerEnglish": "Please confirm office timings from the latest ABVV notice or by calling the university office, as working hours can vary by department and holidays.",
-      "answerHindi": "कार्यालय समय की पुष्टि नवीनतम एबीवीवी सूचना या विश्वविद्यालय कार्यालय में कॉल करके करें, क्योंकि विभाग और अवकाश के अनुसार समय बदल सकता है।"
+      "question": "Who is the HOD of the Computer Science department?",
+      "answerEnglish": "The Head of Department of Computer Science and Application is Dr. H.S. Hota. The submitted department profile lists qualifications including MCA, M.Sc. Maths, and Ph.D. Students can contact the HOD at hodcsa@abvv.ac.in.",
+      "answerHindi": "कंप्यूटर साइंस एंड एप्लीकेशन विभाग के विभागाध्यक्ष डॉ. एच.एस. होता हैं। उपलब्ध विभागीय जानकारी के अनुसार उनकी योग्यता MCA, M.Sc. Maths, और Ph.D. है। छात्र उनसे hodcsa@abvv.ac.in पर संपर्क कर सकते हैं।"
     },
     {
-      "question": "How can I contact the college office?",
-      "answerEnglish": "You can contact Atal Bihari Vajpayee Vishwavidyalaya, Bilaspur, at Bilaspur-Ratanpur Road, Koni, Bilaspur, Chhattisgarh 495009, call 8889928648, or email registrarbilaspuruniversity@gmail.com. Official updates are published on https://www.bilaspuruniversity.ac.in/.",
-      "answerHindi": "आप अटल बिहारी वाजपेयी विश्वविद्यालय, बिलासपुर से बिलासपुर-रतनपुर रोड, कोनी, बिलासपुर, छत्तीसगढ़ 495009 पर संपर्क कर सकते हैं, 8889928648 पर कॉल कर सकते हैं, या registrarbilaspuruniversity@gmail.com पर ईमेल कर सकते हैं। आधिकारिक अपडेट https://www.bilaspuruniversity.ac.in/ पर प्रकाशित होते हैं।"
+      "question": "What is the official contact for the Computer Science department?",
+      "answerEnglish": "The department contact identity provided is hodcsa@abvv.ac.in, with an alternate email of hodcsa@bilaspuruniversity.ac.in. For admission support, the central helpline is +91 9691306621.",
+      "answerHindi": "विभाग के लिए उपलब्ध आधिकारिक संपर्क ईमेल hodcsa@abvv.ac.in है, और वैकल्पिक ईमेल hodcsa@bilaspuruniversity.ac.in है। प्रवेश सहायता के लिए केंद्रीय हेल्पलाइन +91 9691306621 दी गई है।"
+    },
+    {
+      "question": "What are the office timings of the Computer Science department?",
+      "answerEnglish": "The submitted department schedule says the office usually runs Monday to Saturday, except 2nd and 3rd Saturdays and gazetted holidays. Official timings are 10:30 AM to 5:30 PM, with lunch break from 2 PM to 2:50 PM. Telephonic helpline support is generally available from 11 AM to 2 PM and 2:50 PM to 5 PM.",
+      "answerHindi": "उपलब्ध विभागीय समय-सारणी के अनुसार कार्यालय सामान्यतः सोमवार से शनिवार तक चलता है, लेकिन दूसरे और तीसरे शनिवार तथा राजपत्रित अवकाश में बंद रहता है। आधिकारिक समय 10:30 AM से 5:30 PM तक है, और दोपहर का अवकाश 2 PM से 2:50 PM तक है। टेलीफोनिक हेल्पलाइन सहायता सामान्यतः 11 AM से 2 PM और 2:50 PM से 5 PM तक उपलब्ध रहती है।"
+    },
+    {
+      "question": "Where is the Computer Science department located?",
+      "answerEnglish": "The Department of Computer Science and Application is located in the Main Campus Building, UTD block, in front of Koni Police Thana on Bilaspur-Ratanpur Road, Koni, Bilaspur, Chhattisgarh 495009.",
+      "answerHindi": "कंप्यूटर साइंस एंड एप्लीकेशन विभाग मेन कैंपस बिल्डिंग के UTD ब्लॉक में स्थित है, जो कोनी पुलिस थाना के सामने, बिलासपुर-रतनपुर रोड, कोनी, बिलासपुर, छत्तीसगढ़ 495009 में है।"
+    },
+    {
+      "question": "Who handles exam and academic issues in the Computer Science department?",
+      "answerEnglish": "For end-semester exams, internal mark issues, timetable discrepancies, attendance shortfall, and everyday academic matters, the submitted routing matrix points to Mr. Jeetendra Kumar Gupta, Assistant Professor and Academic Coordinator. Contact email: jeetendragupta85@abvv.ac.in. Phone: +91 8109194501.",
+      "answerHindi": "एंड-सेमेस्टर परीक्षा, आंतरिक अंकों की त्रुटि, टाइम टेबल समस्या, उपस्थिति की कमी, और सामान्य शैक्षणिक मामलों के लिए उपलब्ध रूटिंग मैट्रिक्स के अनुसार श्री जितेंद्र कुमार गुप्ता, सहायक प्राध्यापक और अकादमिक समन्वयक से संपर्क करना चाहिए। ईमेल: jeetendragupta85@abvv.ac.in. फोन: +91 8109194501."
+    },
+    {
+      "question": "Who handles lab and practical exam issues?",
+      "answerEnglish": "Laboratory management, hardware issues, practical exam scheduling, external viva coordination, and related field assignments are handled by Dr. Rashmi Gupta, Assistant Professor and Lab In-Charge. Contact email: rashmi.kvk@gmail.com. Phone: +91 9098289065.",
+      "answerHindi": "प्रयोगशाला प्रबंधन, हार्डवेयर समस्याएँ, प्रायोगिक परीक्षा निर्धारण, बाह्य वाइवा समन्वय, और संबंधित फील्ड असाइनमेंट के लिए डॉ. रश्मि गुप्ता, सहायक प्राध्यापक और लैब इंचार्ज से संपर्क करें। ईमेल: rashmi.kvk@gmail.com. फोन: +91 9098289065."
+    },
+    {
+      "question": "Who handles seminars, events, or software track coordination?",
+      "answerEnglish": "For extracurricular events, internal seminars, or specific software-track dependencies, the submitted routing matrix points to Ms. S. Shriya or the guest faculty pool. Contact email: s.shriya88@abvv.ac.in. Phone: +91 8343243439.",
+      "answerHindi": "सह-पाठ्यक्रम गतिविधियाँ, आंतरिक सेमिनार, या विशेष सॉफ्टवेयर-ट्रैक समन्वय के लिए उपलब्ध रूटिंग मैट्रिक्स के अनुसार सुश्री एस. श्रीय या गेस्ट फैकल्टी समूह से संपर्क करें। ईमेल: s.shriya88@abvv.ac.in. फोन: +91 8343243439."
+    },
+    {
+      "question": "Who handles online admission form or portal payment issues?",
+      "answerEnglish": "For online form submission issues, transaction problems, pending status after payment, or preference locking errors, students should use the university IT or portal helpdesk route through https://exam.bucgexam.in/ and the centralized helpline +91 9203391388.",
+      "answerHindi": "ऑनलाइन फॉर्म सबमिशन, भुगतान के बाद pending status, transaction error, या preference locking जैसी पोर्टल समस्याओं के लिए छात्रों को https://exam.bucgexam.in/ के माध्यम से विश्वविद्यालय आईटी या पोर्टल हेल्पडेस्क का उपयोग करना चाहिए, तथा केंद्रीकृत हेल्पलाइन +91 9203391388 पर संपर्क करना चाहिए।"
+    },
+    {
+      "question": "Which issues should go directly to the HOD?",
+      "answerEnglish": "The HOD should be contacted for high-level academic and research governance matters such as Ph.D. allocations, research project approvals, final syllabus issues, industry collaboration matters, and serious department grievances.",
+      "answerHindi": "उच्च-स्तरीय शैक्षणिक और शोध प्रशासनिक विषयों जैसे पीएचडी आवंटन, शोध परियोजना अनुमोदन, अंतिम सिलेबस संबंधी विषय, उद्योग सहयोग, और गंभीर विभागीय शिकायतों के लिए HOD से सीधे संपर्क करना चाहिए।"
     }
   ]
 }

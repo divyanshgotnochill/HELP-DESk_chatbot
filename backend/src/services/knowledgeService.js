@@ -12,6 +12,8 @@ const topicFiles = {
   exams: "exams.json",
   scholarship: "scholarship.json",
   contacts: "contacts.json",
+  curriculum: "curriculum.json",
+  rules: "rules.json",
 };
 
 export async function getKnowledgeBase() {
@@ -47,6 +49,8 @@ export function detectRelevantTopic(message) {
     { topic: "exams", terms: ["exam", "result", "schedule", "semester", "hall ticket", "dates"] },
     { topic: "scholarship", terms: ["scholarship", "financial aid", "grant", "waiver", "stipend"] },
     { topic: "contacts", terms: ["contact", "office", "timing", "hours", "phone", "email"] },
+    { topic: "curriculum", terms: ["syllabus", "subject", "subjects", "course", "curriculum", "timetable", "class", "classes"] },
+    { topic: "rules", terms: ["attendance", "discipline", "rule", "rules", "lab", "project", "practical", "viva", "shortage"] },
   ];
 
   const match = mappings.find(({ terms }) => terms.some((term) => normalized.includes(term)));
@@ -54,5 +58,5 @@ export function detectRelevantTopic(message) {
 }
 
 export function isCollegeRelated(message) {
-  return Boolean(detectRelevantTopic(message)) || /(college|university|campus|student|admission|fees|exam|result|scholarship|office)/i.test(message);
+  return Boolean(detectRelevantTopic(message)) || /(college|university|campus|student|admission|fees|exam|result|scholarship|office|syllabus|attendance|project|lab|curriculum)/i.test(message);
 }
